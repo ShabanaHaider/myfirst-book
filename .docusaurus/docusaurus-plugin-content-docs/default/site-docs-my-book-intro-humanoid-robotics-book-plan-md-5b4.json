@@ -1,0 +1,24 @@
+{
+  "id": "my-book/Intro-humanoid-robotics-book/plan",
+  "title": "Implementation Plan: Physical AI and Humanoid Robotics Book",
+  "description": "Branch 2025-12-06 | Spec: [link to specs/002-humanoid-robotics-book/spec.md]",
+  "source": "@site/docs/my-book/Intro-humanoid-robotics-book/plan.md",
+  "sourceDirName": "my-book/Intro-humanoid-robotics-book",
+  "slug": "/my-book/Intro-humanoid-robotics-book/plan",
+  "permalink": "/docs/my-book/Intro-humanoid-robotics-book/plan",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/my-book/Intro-humanoid-robotics-book/plan.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "constitution",
+    "permalink": "/docs/my-book/Intro-humanoid-robotics-book/constitution"
+  },
+  "next": {
+    "title": "Feature Specification: Humanoid Robotics Book Plan",
+    "permalink": "/docs/my-book/Intro-humanoid-robotics-book/spec"
+  }
+}

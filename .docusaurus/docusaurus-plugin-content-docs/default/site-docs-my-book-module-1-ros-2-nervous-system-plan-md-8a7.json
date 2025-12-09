@@ -1,0 +1,15 @@
+{
+  "id": "my-book/module1-ros2-nervous-system/plan",
+  "title": "Implementation Plan: [FEATURE]",
+  "description": "Branch [DATE] | Spec: [link]",
+  "source": "@site/docs/my-book/module1-ros2-nervous-system/plan.md",
+  "sourceDirName": "my-book/module1-ros2-nervous-system",
+  "slug": "/my-book/module1-ros2-nervous-system/plan",
+  "permalink": "/docs/my-book/module1-ros2-nervous-system/plan",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/my-book/module1-ros2-nervous-system/plan.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

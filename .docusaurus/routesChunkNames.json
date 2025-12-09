@@ -1,0 +1,228 @@
+{
+  "/__docusaurus/debug-5ff": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/config-5ba": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/content-a2b": {
+    "__comp": "__comp---theme-debug-contentba-8-ce7",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    },
+    "__props": "__props---docusaurus-debug-content-3-c-0-be2"
+  },
+  "/__docusaurus/debug/globalData-c3c": {
+    "__comp": "__comp---theme-debug-global-dataede-0fa",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/metadata-156": {
+    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/registry-88c": {
+    "__comp": "__comp---theme-debug-registry-679-501",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/routes-000": {
+    "__comp": "__comp---theme-debug-routes-946-699",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/markdown-page-3d7": {
+    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__context": {
+      "plugin": "plugin---markdown-pagea-74-7b5"
+    },
+    "content": "content---markdown-page-393-028"
+  },
+  "/docs-fa2": {
+    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
+    "__context": {
+      "plugin": "plugin---docsaba-d7c"
+    }
+  },
+  "/docs-772": {
+    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
+    "__props": "__props---docs-005-788"
+  },
+  "/docs-953": {
+    "__comp": "__comp---theme-doc-roota-94-67a"
+  },
+  "/docs/intro-853": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-intro-0-e-3-be1"
+  },
+  "/docs/my-book/Intro-humanoid-robotics-book/constitution-3cb": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-my-book-intro-humanoid-robotics-book-constitution-2-b-5-6f5"
+  },
+  "/docs/my-book/Intro-humanoid-robotics-book/plan-13e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-my-book-intro-humanoid-robotics-book-plan-5-b-4-c91"
+  },
+  "/docs/my-book/Intro-humanoid-robotics-book/spec-1c7": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-my-book-intro-humanoid-robotics-book-spec-89-b-c78"
+  },
+  "/docs/my-book/Intro-humanoid-robotics-book/tasks-be5": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-my-book-intro-humanoid-robotics-book-tasksa-1-e-8f5"
+  },
+  "/docs/my-book/module1-ros2-nervous-system/middleware-462": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-my-book-module-1-ros-2-nervous-system-middlewareeab-9e5"
+  },
+  "/docs/my-book/module1-ros2-nervous-system/plan-29c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-my-book-module-1-ros-2-nervous-system-plan-8-a-7-044"
+  },
+  "/docs/my-book/module1-ros2-nervous-system/rclpy-bridge-1d6": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-my-book-module-1-ros-2-nervous-system-rclpy-bridge-4-b-8-977"
+  },
+  "/docs/my-book/module1-ros2-nervous-system/ros2-concepts-460": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-my-book-module-1-ros-2-nervous-system-ros-2-concepts-37-f-b54"
+  },
+  "/docs/my-book/module1-ros2-nervous-system/spec-d59": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-my-book-module-1-ros-2-nervous-system-spec-670-7aa"
+  },
+  "/docs/my-book/module1-ros2-nervous-system/urdf-028": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-my-book-module-1-ros-2-nervous-system-urdf-46-a-a2c"
+  },
+  "/docs/my-book/module2-digital-twin-sim/lesson1-digital-twins-658": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-my-book-module-2-digital-twin-sim-lesson-1-digital-twinsa-73-234"
+  },
+  "/docs/my-book/module2-digital-twin-sim/lesson2-gazebo-5dc": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-my-book-module-2-digital-twin-sim-lesson-2-gazebo-8-ac-5c9"
+  },
+  "/docs/my-book/module2-digital-twin-sim/lesson3-unity-hri-2a9": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-my-book-module-2-digital-twin-sim-lesson-3-unity-hri-36-d-74c"
+  },
+  "/docs/my-book/module2-digital-twin-sim/lesson4-sensor-sim-c7b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-my-book-module-2-digital-twin-sim-lesson-4-sensor-simeda-6bf"
+  },
+  "/docs/my-book/module2-digital-twin-sim/plan-961": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-my-book-module-2-digital-twin-sim-plan-26-a-7c1"
+  },
+  "/docs/my-book/module2-digital-twin-sim/spec-c2a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-my-book-module-2-digital-twin-sim-spec-2-ec-86b"
+  },
+  "/docs/my-book/module2-digital-twin-sim/tasks-b99": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-my-book-module-2-digital-twin-sim-tasks-0-c-8-1ba"
+  },
+  "/docs/my-book/module3-ai-robot-brain/lesson1-perception-training-5f0": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-my-book-module-3-ai-robot-brain-lesson-1-perception-training-5-f-5-2b1"
+  },
+  "/docs/my-book/module3-ai-robot-brain/lesson2-isaac-sim-52b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-my-book-module-3-ai-robot-brain-lesson-2-isaac-sim-270-956"
+  },
+  "/docs/my-book/module3-ai-robot-brain/lesson3-isaac-ros-nav-5a1": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-my-book-module-3-ai-robot-brain-lesson-3-isaac-ros-nav-742-f79"
+  },
+  "/docs/my-book/module3-ai-robot-brain/lesson4-nav2-path-planning-93b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-my-book-module-3-ai-robot-brain-lesson-4-nav-2-path-planninge-8-a-cb6"
+  },
+  "/docs/my-book/module3-ai-robot-brain/plan-e6f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-my-book-module-3-ai-robot-brain-plan-09-e-0f5"
+  },
+  "/docs/my-book/module3-ai-robot-brain/spec-5cc": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-my-book-module-3-ai-robot-brain-spec-7-e-3-f2c"
+  },
+  "/docs/my-book/module3-ai-robot-brain/tasks-742": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-my-book-module-3-ai-robot-brain-tasks-9-c-5-13b"
+  },
+  "/docs/my-book/module4_vla/lesson1-llm-robotics-convergence-096": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-my-book-module-4-vla-lesson-1-llm-robotics-convergence-492-1dd"
+  },
+  "/docs/my-book/module4_vla/lesson2-voice-to-action-whisper-fa1": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-my-book-module-4-vla-lesson-2-voice-to-action-whispere-1-a-52f"
+  },
+  "/docs/my-book/module4_vla/plan-ccf": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-my-book-module-4-vla-plan-4-c-4-bbf"
+  },
+  "/docs/my-book/module4_vla/spec-19a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-my-book-module-4-vla-specd-69-84a"
+  },
+  "/docs/my-book/module4_vla/tasks-cb4": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-my-book-module-4-vla-tasksdd-9-779"
+  },
+  "/docs/outline-339": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-outlinec-79-3f9"
+  },
+  "/docs/tutorial-basics/congratulations-70e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-tutorial-basics-congratulations-822-958"
+  },
+  "/docs/tutorial-basics/create-a-blog-post-315": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-tutorial-basics-create-a-blog-post-533-e85"
+  },
+  "/docs/tutorial-basics/create-a-document-f86": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-tutorial-basics-create-a-document-1-e-4-078"
+  },
+  "/docs/tutorial-basics/create-a-page-9f6": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-tutorial-basics-create-a-page-5-c-8-e19"
+  },
+  "/docs/tutorial-basics/deploy-your-site-b91": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-tutorial-basics-deploy-your-sitef-55-a3f"
+  },
+  "/docs/tutorial-basics/markdown-features-272": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-tutorial-basics-markdown-features-18-c-a79"
+  },
+  "/docs/tutorial-extras/manage-docs-versions-a34": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-tutorial-extras-manage-docs-versionsdff-6d4"
+  },
+  "/docs/tutorial-extras/translate-your-site-739": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-tutorial-extras-translate-your-sitee-44-ddf"
+  },
+  "/-2e1": {
+    "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
+    "__context": {
+      "plugin": "plugin---markdown-pagea-74-7b5"
+    },
+    "config": "config---5-e-9-4f3"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "my-book/module2-digital-twin-sim/lesson3-unity-hri",
+  "title": "High-Fidelity Rendering and Human-Robot Interaction in Unity",
+  "description": "This lesson shows how Unity provides realistic 3D visuals and interactive simulations.",
+  "source": "@site/docs/my-book/module2-digital-twin-sim/lesson3-unity-hri.md",
+  "sourceDirName": "my-book/module2-digital-twin-sim",
+  "slug": "/my-book/module2-digital-twin-sim/lesson3-unity-hri",
+  "permalink": "/docs/my-book/module2-digital-twin-sim/lesson3-unity-hri",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/my-book/module2-digital-twin-sim/lesson3-unity-hri.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Simulating Physics with Gazebo",
+    "permalink": "/docs/my-book/module2-digital-twin-sim/lesson2-gazebo"
+  },
+  "next": {
+    "title": "Simulating Sensors",
+    "permalink": "/docs/my-book/module2-digital-twin-sim/lesson4-sensor-sim"
+  }
+}

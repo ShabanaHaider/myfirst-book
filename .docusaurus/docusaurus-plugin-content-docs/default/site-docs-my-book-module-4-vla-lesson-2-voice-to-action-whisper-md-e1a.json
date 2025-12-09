@@ -1,0 +1,20 @@
+{
+  "id": "my-book/module4_vla/lesson2-voice-to-action-whisper",
+  "title": "Voice-to-Action (OpenAI Whisper)",
+  "description": "This lesson explains using OpenAI Whisper for voice commands.",
+  "source": "@site/docs/my-book/module4_vla/lesson2-voice-to-action-whisper.md",
+  "sourceDirName": "my-book/module4_vla",
+  "slug": "/my-book/module4_vla/lesson2-voice-to-action-whisper",
+  "permalink": "/docs/my-book/module4_vla/lesson2-voice-to-action-whisper",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/my-book/module4_vla/lesson2-voice-to-action-whisper.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Convergence of LLMs and Robotics",
+    "permalink": "/docs/my-book/module4_vla/lesson1-llm-robotics-convergence"
+  }
+}

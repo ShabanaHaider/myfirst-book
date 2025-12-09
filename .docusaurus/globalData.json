@@ -1,0 +1,202 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "my-book/Intro-humanoid-robotics-book/constitution",
+          "docs": [
+            {
+              "id": "intro",
+              "path": "/docs/intro"
+            },
+            {
+              "id": "my-book/Intro-humanoid-robotics-book/constitution",
+              "path": "/docs/my-book/Intro-humanoid-robotics-book/constitution",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "my-book/Intro-humanoid-robotics-book/plan",
+              "path": "/docs/my-book/Intro-humanoid-robotics-book/plan",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "my-book/Intro-humanoid-robotics-book/spec",
+              "path": "/docs/my-book/Intro-humanoid-robotics-book/spec",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "my-book/Intro-humanoid-robotics-book/tasks",
+              "path": "/docs/my-book/Intro-humanoid-robotics-book/tasks",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "my-book/module1-ros2-nervous-system/middleware",
+              "path": "/docs/my-book/module1-ros2-nervous-system/middleware",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "my-book/module1-ros2-nervous-system/plan",
+              "path": "/docs/my-book/module1-ros2-nervous-system/plan"
+            },
+            {
+              "id": "my-book/module1-ros2-nervous-system/rclpy-bridge",
+              "path": "/docs/my-book/module1-ros2-nervous-system/rclpy-bridge",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "my-book/module1-ros2-nervous-system/ros2-concepts",
+              "path": "/docs/my-book/module1-ros2-nervous-system/ros2-concepts",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "my-book/module1-ros2-nervous-system/spec",
+              "path": "/docs/my-book/module1-ros2-nervous-system/spec"
+            },
+            {
+              "id": "my-book/module1-ros2-nervous-system/urdf",
+              "path": "/docs/my-book/module1-ros2-nervous-system/urdf",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "my-book/module2-digital-twin-sim/lesson1-digital-twins",
+              "path": "/docs/my-book/module2-digital-twin-sim/lesson1-digital-twins",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "my-book/module2-digital-twin-sim/lesson2-gazebo",
+              "path": "/docs/my-book/module2-digital-twin-sim/lesson2-gazebo",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "my-book/module2-digital-twin-sim/lesson3-unity-hri",
+              "path": "/docs/my-book/module2-digital-twin-sim/lesson3-unity-hri",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "my-book/module2-digital-twin-sim/lesson4-sensor-sim",
+              "path": "/docs/my-book/module2-digital-twin-sim/lesson4-sensor-sim",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "my-book/module2-digital-twin-sim/plan",
+              "path": "/docs/my-book/module2-digital-twin-sim/plan"
+            },
+            {
+              "id": "my-book/module2-digital-twin-sim/spec",
+              "path": "/docs/my-book/module2-digital-twin-sim/spec"
+            },
+            {
+              "id": "my-book/module2-digital-twin-sim/tasks",
+              "path": "/docs/my-book/module2-digital-twin-sim/tasks"
+            },
+            {
+              "id": "my-book/module3-ai-robot-brain/lesson1-perception-training",
+              "path": "/docs/my-book/module3-ai-robot-brain/lesson1-perception-training",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "my-book/module3-ai-robot-brain/lesson2-isaac-sim",
+              "path": "/docs/my-book/module3-ai-robot-brain/lesson2-isaac-sim",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "my-book/module3-ai-robot-brain/lesson3-isaac-ros-nav",
+              "path": "/docs/my-book/module3-ai-robot-brain/lesson3-isaac-ros-nav",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "my-book/module3-ai-robot-brain/lesson4-nav2-path-planning",
+              "path": "/docs/my-book/module3-ai-robot-brain/lesson4-nav2-path-planning",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "my-book/module3-ai-robot-brain/plan",
+              "path": "/docs/my-book/module3-ai-robot-brain/plan"
+            },
+            {
+              "id": "my-book/module3-ai-robot-brain/spec",
+              "path": "/docs/my-book/module3-ai-robot-brain/spec"
+            },
+            {
+              "id": "my-book/module3-ai-robot-brain/tasks",
+              "path": "/docs/my-book/module3-ai-robot-brain/tasks"
+            },
+            {
+              "id": "my-book/module4_vla/lesson1-llm-robotics-convergence",
+              "path": "/docs/my-book/module4_vla/lesson1-llm-robotics-convergence",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "my-book/module4_vla/lesson2-voice-to-action-whisper",
+              "path": "/docs/my-book/module4_vla/lesson2-voice-to-action-whisper",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "my-book/module4_vla/plan",
+              "path": "/docs/my-book/module4_vla/plan"
+            },
+            {
+              "id": "my-book/module4_vla/spec",
+              "path": "/docs/my-book/module4_vla/spec"
+            },
+            {
+              "id": "my-book/module4_vla/tasks",
+              "path": "/docs/my-book/module4_vla/tasks"
+            },
+            {
+              "id": "outline",
+              "path": "/docs/outline"
+            },
+            {
+              "id": "tutorial-basics/congratulations",
+              "path": "/docs/tutorial-basics/congratulations"
+            },
+            {
+              "id": "tutorial-basics/create-a-blog-post",
+              "path": "/docs/tutorial-basics/create-a-blog-post"
+            },
+            {
+              "id": "tutorial-basics/create-a-document",
+              "path": "/docs/tutorial-basics/create-a-document"
+            },
+            {
+              "id": "tutorial-basics/create-a-page",
+              "path": "/docs/tutorial-basics/create-a-page"
+            },
+            {
+              "id": "tutorial-basics/deploy-your-site",
+              "path": "/docs/tutorial-basics/deploy-your-site"
+            },
+            {
+              "id": "tutorial-basics/markdown-features",
+              "path": "/docs/tutorial-basics/markdown-features"
+            },
+            {
+              "id": "tutorial-extras/manage-docs-versions",
+              "path": "/docs/tutorial-extras/manage-docs-versions"
+            },
+            {
+              "id": "tutorial-extras/translate-your-site",
+              "path": "/docs/tutorial-extras/translate-your-site"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/docs/my-book/Intro-humanoid-robotics-book/constitution",
+                "label": "my-book/Intro-humanoid-robotics-book/constitution"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

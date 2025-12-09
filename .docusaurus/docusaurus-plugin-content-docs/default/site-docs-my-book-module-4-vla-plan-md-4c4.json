@@ -1,0 +1,15 @@
+{
+  "id": "my-book/module4_vla/plan",
+  "title": "Implementation Plan: Module 4: Vision-Language-Action (VLA)",
+  "description": "Branch 2025-12-07 | Spec: [link to specs/005-vla-module/spec.md]",
+  "source": "@site/docs/my-book/module4_vla/plan.md",
+  "sourceDirName": "my-book/module4_vla",
+  "slug": "/my-book/module4_vla/plan",
+  "permalink": "/docs/my-book/module4_vla/plan",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/my-book/module4_vla/plan.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

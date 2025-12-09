@@ -1,0 +1,24 @@
+{
+  "id": "my-book/module2-digital-twin-sim/lesson2-gazebo",
+  "title": "Simulating Physics with Gazebo",
+  "description": "This lesson introduces Gazebo as a tool for realistic physics simulation.",
+  "source": "@site/docs/my-book/module2-digital-twin-sim/lesson2-gazebo.md",
+  "sourceDirName": "my-book/module2-digital-twin-sim",
+  "slug": "/my-book/module2-digital-twin-sim/lesson2-gazebo",
+  "permalink": "/docs/my-book/module2-digital-twin-sim/lesson2-gazebo",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/my-book/module2-digital-twin-sim/lesson2-gazebo.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Understanding Digital Twins",
+    "permalink": "/docs/my-book/module2-digital-twin-sim/lesson1-digital-twins"
+  },
+  "next": {
+    "title": "High-Fidelity Rendering and Human-Robot Interaction in Unity",
+    "permalink": "/docs/my-book/module2-digital-twin-sim/lesson3-unity-hri"
+  }
+}

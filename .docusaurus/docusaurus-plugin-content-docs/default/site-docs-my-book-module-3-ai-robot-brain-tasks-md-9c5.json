@@ -1,0 +1,15 @@
+{
+  "id": "my-book/module3-ai-robot-brain/tasks",
+  "title": "Tasks: Module 3: The AI-Robot Brain (NVIDIA Isaac™)",
+  "description": "Input: Design documents from /specs/004-ai-robot-brain/",
+  "source": "@site/docs/my-book/module3-ai-robot-brain/tasks.md",
+  "sourceDirName": "my-book/module3-ai-robot-brain",
+  "slug": "/my-book/module3-ai-robot-brain/tasks",
+  "permalink": "/docs/my-book/module3-ai-robot-brain/tasks",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/my-book/module3-ai-robot-brain/tasks.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

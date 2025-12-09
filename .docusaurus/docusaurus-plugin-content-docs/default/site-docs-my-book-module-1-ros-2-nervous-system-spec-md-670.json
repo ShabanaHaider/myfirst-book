@@ -1,0 +1,15 @@
+{
+  "id": "my-book/module1-ros2-nervous-system/spec",
+  "title": "Feature Specification: Module 1: The Robotic Nervous System (ROS 2)",
+  "description": "Feature Branch: 001-ros2-nervous-system",
+  "source": "@site/docs/my-book/module1-ros2-nervous-system/spec.md",
+  "sourceDirName": "my-book/module1-ros2-nervous-system",
+  "slug": "/my-book/module1-ros2-nervous-system/spec",
+  "permalink": "/docs/my-book/module1-ros2-nervous-system/spec",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/my-book/module1-ros2-nervous-system/spec.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

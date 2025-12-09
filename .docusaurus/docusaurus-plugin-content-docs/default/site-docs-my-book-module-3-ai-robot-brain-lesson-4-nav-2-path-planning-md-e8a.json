@@ -1,0 +1,24 @@
+{
+  "id": "my-book/module3-ai-robot-brain/lesson4-nav2-path-planning",
+  "title": "Nav2 Path Planning",
+  "description": "This lesson introduces bipedal humanoid robot path planning using ROS 2 Nav2.",
+  "source": "@site/docs/my-book/module3-ai-robot-brain/lesson4-nav2-path-planning.md",
+  "sourceDirName": "my-book/module3-ai-robot-brain",
+  "slug": "/my-book/module3-ai-robot-brain/lesson4-nav2-path-planning",
+  "permalink": "/docs/my-book/module3-ai-robot-brain/lesson4-nav2-path-planning",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/my-book/module3-ai-robot-brain/lesson4-nav2-path-planning.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Implementing Navigation with Isaac ROS",
+    "permalink": "/docs/my-book/module3-ai-robot-brain/lesson3-isaac-ros-nav"
+  },
+  "next": {
+    "title": "Convergence of LLMs and Robotics",
+    "permalink": "/docs/my-book/module4_vla/lesson1-llm-robotics-convergence"
+  }
+}
