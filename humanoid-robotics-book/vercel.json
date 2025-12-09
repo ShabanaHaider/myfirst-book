@@ -1,0 +1,6 @@
+{
+  "build": {
+    "env": {},
+    "nodeVersion": "20.x"
+  }
+}
