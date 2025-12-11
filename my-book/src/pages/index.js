@@ -11,14 +11,17 @@ function HomepageHeader() {
   return (
     <header className={clsx(styles.heroBanner)}>
       <div className={styles.overlay}>
+        {/* Main title of the book */}
         <Heading as="h1" className={styles.title}>
-          {siteConfig.title}
+          PHYSICAL AI & HUMANOID ROBOTICS TEXT BOOK
         </Heading>
 
-        {siteConfig.tagline && (
-          <p className={styles.subtitle}>{siteConfig.tagline}</p>
-        )}
+        {/* Subheading about the book */}
+        <p className={styles.subtitle}>
+          A short description or "A complete and practical learning system where you master the future:humanoid robotics, ROS 2,large action models, simulation,VLA systems,hardware,and advanced AI for next-generation intelligent machines." goes here.
+        </p>
 
+        {/* Start Reading button */}
         <div className={styles.buttons}>
           <Link className={styles.readButton} to="/docs/intro">
             Start Reading →
@@ -30,14 +33,12 @@ function HomepageHeader() {
 }
 
 export default function Home() {
-  const { siteConfig } = useDocusaurusContext();
-
   return (
     <Layout
-      title={siteConfig.title}
-      description={siteConfig.tagline}>
+      title="PHYSICAL AI & HUMANOID ROBOTICS TEXT BOOK"
+      description="A complete and practical learning system where you master the future:humanoid robotics, ROS 2,large action models, simulation,VLA systems,hardware,and advanced AI for next-generation intelligent machines.">
       <HomepageHeader />
-      {/* Removed HomepageFeatures for clean book cover */}
+      {/* Clean homepage — no extra features */}
     </Layout>
   );
 }
