@@ -57,7 +57,7 @@ const config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar', // matches sidebars.js
           position: 'left',
-          label: 'Start Reading',
+          label: 'PHYSICAL AI & HUMANOID ROBOTICS',
         },
         {
           href: 'https://github.com/your-org/my-book',
