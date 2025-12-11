@@ -3,8 +3,8 @@ import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Physical AI & Humanoid Robotics', // optional homepage title
-  tagline: 'About the Book: A short description goes here.',
+  title: 'PHYSICAL AI & HUMANOID ROBOTICS TEXT BOOK',
+  tagline: 'A short description or "A complete and practical learning system where you master the future:humanoid robotics, ROS 2,large action models, simulation,VLA systems,hardware,and advanced AI for next-generation intelligent machines.',
   favicon: 'img/favicon.ico',
 
   future: {
@@ -47,17 +47,17 @@ const config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: '', // remove homepage text
+      title: '', // remove homepage text, show only logo
       logo: {
         alt: 'Book Logo',
-        src: 'img/logo.svg', // your book logo
+        src: 'img/logo.svg',
       },
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'tutorialSidebar', // make sure this matches your sidebars.js
+          sidebarId: 'tutorialSidebar', // matches sidebars.js
           position: 'left',
-          label: 'Physical AI & Humanoid Robotics', // changed name
+          label: 'Start Reading',
         },
         {
           href: 'https://github.com/your-org/my-book',
@@ -93,7 +93,7 @@ const config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Physical AI & Humanoid Robotics. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} My Book. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
