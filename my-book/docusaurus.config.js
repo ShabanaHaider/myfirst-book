@@ -47,6 +47,7 @@ const config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
+      hideOnHomePage: true,
       title: '', // remove homepage text, show only logo
       logo: {
         alt: 'Book Logo',
