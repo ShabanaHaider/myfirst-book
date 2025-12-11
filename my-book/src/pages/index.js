@@ -18,7 +18,7 @@ function HomepageHeader() {
 
         {/* Subheading about the book */}
         <p className={styles.subtitle}>
-          A short description or "A complete and practical learning system where you master the future:humanoid robotics, ROS 2,large action models, simulation,VLA systems,hardware,and advanced AI for next-generation intelligent machines." goes here.
+          A short description or "A complete and practical learning system where you master the future:humanoid robotics, ROS 2,large action models, simulation,VLA systems,hardware,and advanced AI for next-generation intelligent machines.".
         </p>
 
         {/* Start Reading button */}
