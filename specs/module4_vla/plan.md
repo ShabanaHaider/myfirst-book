@@ -79,10 +79,10 @@ humanoid-robotics-book/
 - Define clear learning objectives for each subsection.
 
 ### Phase 3: Writing & Structuring Content
-- Explain OpenAI Whisper for voice commands.
-- Explain how LLMs translate natural language into ROS 2 actions.
-- Describe the capstone project workflow for autonomous humanoid behavior.
-- Structure content into Markdown files (`lesson1-llm-robotics-convergence.md`, `lesson2-voice-to-action-whisper.md`, etc.).
+- Explain OpenAI Whisper for voice commands. (lesson2-voice-to-action-whisper.md)
+- Explain cognitive planning using LLMs and how they translate natural language into ROS 2 action sequences. (lesson3-cognitive-planning-llms.md)
+- Describe the capstone project workflow for autonomous humanoid behavior integrating voice, vision, planning, and manipulation. (lesson4-capstone-autonomous-humanoid.md)
+- Structure content into Markdown files (`lesson1-llm-robotics-convergence.md`, `lesson2-voice-to-action-whisper.md`, `lesson3-cognitive-planning-llms.md`, `lesson4-capstone-autonomous-humanoid.md`).
 
 ### Phase 4: Review & Refinement
 - Verify clarity, beginner accessibility, and technical accuracy.
@@ -103,3 +103,21 @@ humanoid-robotics-book/
 
 ## Agent Context Update (Phase 1)
 - The agent context will be updated with "OpenAI Whisper" and "LLMs" as technologies used in the project.
+
+## Detailed Implementation for New Lessons
+
+### Lesson 3: Cognitive Planning Using LLMs
+- Design the cognitive planning architecture that connects LLM outputs to ROS 2 actions
+- Implement natural language parsing to extract robot commands
+- Create mapping between language concepts and ROS 2 action sequences
+- Develop error handling for invalid or ambiguous commands
+- Add examples showing how to plan multi-step tasks
+- Include code samples for LLM integration with ROS 2
+
+### Lesson 4: Capstone Project: The Autonomous Humanoid
+- Design the complete system architecture diagram
+- Create integration guidelines for combining all modules
+- Develop testing scenarios for the complete system
+- Provide step-by-step instructions for the integration process
+- Include debugging and troubleshooting tips for complex systems
+- Add performance evaluation metrics and methods

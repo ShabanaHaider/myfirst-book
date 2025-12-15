@@ -52,6 +52,8 @@ module.exports = {
       items: [
         'module4_vla/lesson1-llm-robotics-convergence',
         'module4_vla/lesson2-voice-to-action-whisper',
+        'module4_vla/lesson3-cognitive-planning-llms',
+        'module4_vla/lesson4-capstone-autonomous-humanoid',
       ],
     },
   ],

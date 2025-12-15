@@ -1,6 +1,6 @@
 # Tasks: Module 4: Vision-Language-Action (VLA)
 
-**Input**: Design documents from `/specs/004-ai-robot-brain/`
+**Input**: Design documents from `/specs/module4_vla/`
 
 ---
 
@@ -26,8 +26,8 @@
 
 ### Implementation for User Story 1
 
-- [ ] T006 [P] [US1] Write content for "Convergence of LLMs and Robotics" in `humanoid-robotics-book/docs/module4-vision-language-action/lesson1-llm-robotics-convergence.md`.
-- [ ] T007 [US1] Review and refine content for clarity and accuracy.
+- [x] T006 [P] [US1] Write content for "Convergence of LLMs and Robotics" in `my-book/docs/module4_vla/lesson1-llm-robotics-convergence.md`.
+- [x] T007 [US1] Review and refine content for clarity and accuracy.
 
 ---
 
@@ -38,9 +38,9 @@
 
 ### Implementation for User Story 2
 
-- [ ] T008 [P] [US2] Write content for "Voice-to-Action (OpenAI Whisper)" in `humanoid-robotics-book/docs/module4-vision-language-action/lesson2-voice-to-action-whisper.md`.
-- [ ] T009 [US2] Include step-by-step instructions for Whisper setup and integration.
-- [ ] T010 [US2] Review and refine content, including example voice command workflows.
+- [x] T008 [P] [US2] Write content for "Voice-to-Action (OpenAI Whisper)" in `my-book/docs/module4_vla/lesson2-voice-to-action-whisper.md`.
+- [x] T009 [US2] Include step-by-step instructions for Whisper setup and integration.
+- [x] T010 [US2] Review and refine content, including example voice command workflows.
 
 ---
 
@@ -51,9 +51,12 @@
 
 ### Implementation for User Story 3
 
-- [ ] T011 [P] [US3] Write content for "Cognitive Planning Using LLMs" in `humanoid-robotics-book/docs/module4-vision-language-action/lesson3-cognitive-planning-llms.md`.
-- [ ] T012 [US3] Include step-by-step instructions for LLM integration with ROS 2.
-- [ ] T013 [US3] Review and refine content, including example action sequences.
+- [x] T011 [P] [US3] Write content for "Cognitive Planning Using LLMs" in `my-book/docs/module4_vla/lesson3-cognitive-planning-llms.md`.
+- [x] T012 [US3] Include step-by-step instructions for LLM integration with ROS 2.
+- [x] T013 [US3] Review and refine content, including example action sequences.
+- [x] T017 [US3] Add code examples for cognitive planning implementation.
+- [x] T018 [US3] Include practical exercises for students to implement their own cognitive planner.
+- [x] T019 [US3] Add troubleshooting section for common cognitive planning issues.
 
 ---
 
@@ -64,9 +67,13 @@
 
 ### Implementation for User Story 4
 
-- [ ] T014 [P] [US4] Write content for "Capstone Project: The Autonomous Humanoid" in `humanoid-robotics-book/docs/module4-vision-language-action/lesson4-capstone-autonomous-humanoid.md`.
-- [ ] T015 [US4] Detail the integration of voice, vision, planning, and manipulation components.
-- [ ] T016 [US4] Review and refine content, including workflow diagrams and results.
+- [x] T014 [P] [US4] Write content for "Capstone Project: The Autonomous Humanoid" in `my-book/docs/module4_vla/lesson4-capstone-autonomous-humanoid.md`.
+- [x] T015 [US4] Detail the integration of voice, vision, planning, and manipulation components.
+- [x] T016 [US4] Review and refine content, including workflow diagrams and results.
+- [x] T020 [US4] Add complete project structure and implementation phases.
+- [x] T021 [US4] Include assessment criteria and deliverables for the capstone project.
+- [x] T022 [US4] Add troubleshooting guide for complex system integration issues.
+- [x] T023 [US4] Provide resources and templates for project documentation.
 
 ---
 
