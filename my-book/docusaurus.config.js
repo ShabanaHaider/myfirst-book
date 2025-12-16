@@ -74,7 +74,7 @@ const config = {
           items: [
             {
               label: 'Start Reading',
-              to: '/docs/intro',
+              to: '/intro',
             },
           ],
         },

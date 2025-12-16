@@ -24,7 +24,7 @@ function HomepageHeader() {
 
         {/* Start Reading button */}
         <div className={styles.buttons}>
-          <Link className={styles.readButton} to="/docs/intro">
+          <Link className={styles.readButton} to="/intro">
             Start Reading →
           </Link>
         </div>
