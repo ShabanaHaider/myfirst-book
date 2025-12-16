@@ -2,46 +2,40 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Welcome to Physical AI & Humanoid Robotics
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Welcome to your comprehensive guide to **Physical AI & Humanoid Robotics** - a complete and practical learning system where you master the future: humanoid robotics, ROS 2, large action models, simulation, VLA systems, hardware, and advanced AI for next-generation intelligent machines.
+
+## About This Book
+
+This book is structured into four comprehensive modules that will take you from foundational concepts to advanced implementations:
+
+### Module 1: The Robotic Nervous System (ROS 2)
+- Understanding middleware and communication
+- Core ROS 2 concepts and architecture
+- Python bridge with rclpy
+- Robot description format (URDF)
+
+### Module 2: The Digital Twin (Gazebo & Unity)
+- Digital twin concepts and implementation
+- Gazebo simulation environment
+- Unity for Human-Robot Interaction
+- Sensor simulation techniques
+
+### Module 3: The AI-Robot Brain (NVIDIA Isaac™)
+- Perception training techniques
+- Isaac simulation framework
+- Isaac ROS navigation systems
+- Nav2 path planning algorithms
+
+### Module 4: Vision-Language-Action (VLA)
+- LLM-robotics convergence
+- Voice-to-action with Whisper
+- Cognitive planning with LLMs
+- Capstone: Autonomous humanoid project
 
 ## Getting Started
 
-Get started by **creating a new site**.
+Begin your journey by exploring the [Introduction](./docs/Intro-humanoid-robotics-book/constitution) to understand the foundational principles of humanoid robotics, or jump directly into the modules that interest you most.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
-
-### What you'll need
-
-- [Node.js](https://nodejs.org/en/download/) version 20.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+This book combines theoretical knowledge with practical, hands-on exercises to ensure you develop both understanding and implementation skills in humanoid robotics development.
