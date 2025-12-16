@@ -38,7 +38,7 @@ export default function Home() {
     <Layout
       title="PHYSICAL AI & HUMANOID ROBOTICS TEXT BOOK"
       description="A complete and practical learning system where you master the future:humanoid robotics, ROS 2,large action models, simulation,VLA systems,hardware,and advanced AI for next-generation intelligent machines.">
-      navbar={!isHomepage}
+      
       <HomepageHeader />
       {/* Clean homepage — no extra features */}
     </Layout>
