@@ -1,0 +1,150 @@
+# RAG Chatbot API Contract
+
+**Feature**: 1-rag-chatbot
+**Version**: 1.0
+**Created**: 2025-12-16
+
+## Ingestion Service
+
+### POST /api/v1/ingest
+Trigger the document ingestion process for all markdown files.
+
+**Request**:
+```json
+{
+  "force_reprocess": false,
+  "target_directory": "my_book/docs/"
+}
+```
+
+**Success Response**:
+```json
+{
+  "status": "processing",
+  "job_id": "uuid-string",
+  "files_found": 42,
+  "files_to_process": 38,
+  "estimated_duration_seconds": 120
+}
+```
+
+**Error Response**:
+```json
+{
+  "status": "error",
+  "error_code": "INGESTION_FAILED",
+  "message": "Detailed error message"
+}
+```
+
+### GET /api/v1/ingest/status/{job_id}
+Check the status of an ingestion job.
+
+**Response**:
+```json
+{
+  "job_id": "uuid-string",
+  "status": "completed",
+  "progress": {
+    "total_files": 38,
+    "processed_files": 25,
+    "failed_files": 0,
+    "percentage": 65.8
+  },
+  "summary": {
+    "chunks_created": 156,
+    "embeddings_stored": 156,
+    "start_time": "2025-12-16T10:30:00Z",
+    "end_time": "2025-12-16T10:32:15Z",
+    "duration_seconds": 135
+  }
+}
+```
+
+## Query Service
+
+### POST /api/v1/query
+Submit a query and receive a RAG-generated response.
+
+**Request**:
+```json
+{
+  "query": "What are the key concepts in chapter 3?",
+  "top_k": 5,
+  "similarity_threshold": 0.7,
+  "include_sources": true
+}
+```
+
+**Success Response**:
+```json
+{
+  "query_id": "uuid-string",
+  "response": "The key concepts in chapter 3 include...",
+  "sources": [
+    {
+      "chunk_id": "uuid-string",
+      "source_file": "my_book/docs/chapter3.md",
+      "chunk_index": 2,
+      "similarity_score": 0.89,
+      "text_preview": "Key concept: ..."
+    }
+  ],
+  "confidence": 0.85,
+  "response_time_ms": 842
+}
+```
+
+**Error Response**:
+```json
+{
+  "status": "error",
+  "error_code": "QUERY_FAILED",
+  "message": "Detailed error message"
+}
+```
+
+## Health Service
+
+### GET /api/v1/health
+Check the health status of the RAG service.
+
+**Response**:
+```json
+{
+  "status": "healthy",
+  "timestamp": "2025-12-16T10:30:00Z",
+  "services": {
+    "cohere_api": "connected",
+    "qdrant_db": "connected",
+    "file_system": "accessible"
+  },
+  "version": "1.0.0"
+}
+```
+
+## Configuration Service
+
+### GET /api/v1/config
+Get current configuration values.
+
+**Response**:
+```json
+{
+  "chunk_size_tokens": 512,
+  "overlap_percentage": 20,
+  "top_k_retrieval": 5,
+  "similarity_threshold": 0.7,
+  "max_query_length": 1000,
+  "collection_name": "myfirst_book"
+}
+```
+
+## Error Codes
+- `INGESTION_FAILED`: General ingestion process failure
+- `EMBEDDING_ERROR`: Error during embedding generation
+- `DATABASE_ERROR`: Error storing or retrieving from vector database
+- `QUERY_FAILED`: Error during query processing
+- `INVALID_INPUT`: Request data doesn't meet validation requirements
+- `RATE_LIMIT_EXCEEDED`: API rate limit reached
+- `SERVICE_UNAVAILABLE`: External service temporarily unavailable
