@@ -38,7 +38,8 @@
       "Bash(git commit -m \"feat: implement Next.js Chat UI with FastAPI integration\\n\\n- Create complete Next.js chat interface with App Router\\n- Implement core components: ChatContainer, MessageList, ChatMessage, InputArea\\n- Add loading states, error handling, and auto-scroll functionality\\n- Create API service for FastAPI /chat endpoint integration\\n- Add TypeScript type definitions for chat functionality\\n- Implement accessibility features and responsive design\\n- Create new /chat endpoint in FastAPI backend that maps to existing query functionality\\n- Add run_server.py script for easy backend startup\\n- Update main.py to include the new chat endpoint router\\n\\nThe chat UI now provides a complete interface for users to interact with the RAG system via a simple message interface.\")",
       "Bash(git checkout main)",
       "Bash(git add .claude/settings.local.json)",
-      "Bash(git commit -m \"chore: update Claude settings with recent commands\")"
+      "Bash(git commit -m \"chore: update Claude settings with recent commands\")",
+      "Bash(npx next dev)"
     ]
   }
 }
