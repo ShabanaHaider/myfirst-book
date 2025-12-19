@@ -1,0 +1,99 @@
+# API Contracts: Next.js Chat UI
+
+## Overview
+API contracts defining the interface between the Next.js frontend and the FastAPI backend.
+
+## Backend API: FastAPI `/chat` Endpoint
+
+### POST `/chat`
+Communicate with the backend to send user messages and receive AI responses.
+
+#### Request
+```http
+POST /chat
+Content-Type: application/json
+```
+
+**Request Body**:
+```json
+{
+  "message": "string"
+}
+```
+
+**Fields**:
+- `message`: The user's message to send to the backend (required, string)
+
+#### Response
+**Success Response (200 OK)**:
+```json
+{
+  "answer": "string"
+}
+```
+
+**Fields**:
+- `answer`: The AI-generated response from the backend (string)
+
+**Error Responses**:
+- `400 Bad Request`: Invalid request format
+- `500 Internal Server Error`: Backend processing error
+
+#### Example
+**Request**:
+```http
+POST /chat
+Content-Type: application/json
+
+{
+  "message": "What is the capital of France?"
+}
+```
+
+**Response**:
+```http
+HTTP/1.1 200 OK
+Content-Type: application/json
+
+{
+  "answer": "The capital of France is Paris."
+}
+```
+
+## Frontend API Service Contract
+
+### Chat API Service
+The frontend will implement a service to handle communication with the backend.
+
+```typescript
+interface ChatApiService {
+  sendMessage(message: string): Promise<ChatResponse>;
+}
+```
+
+**Method**: `sendMessage`
+- **Input**: `message` string (the user's message)
+- **Output**: Promise resolving to `ChatResponse` with the assistant's answer
+- **Errors**: May throw errors for network issues, invalid responses, or backend errors
+
+### Environment Configuration
+The frontend will use an environment variable to determine the backend URL:
+
+- `NEXT_PUBLIC_API_BASE_URL`: The base URL for the FastAPI backend (defaults to 'http://localhost:8000')
+
+## Data Flow Contract
+
+### Message Flow
+1. User types message in UI
+2. Frontend validates input (non-empty message)
+3. Frontend calls `chatApi.sendMessage(userMessage)`
+4. Frontend shows loading state
+5. Backend processes message and returns response
+6. Frontend receives response and adds to message history
+7. Frontend updates UI with new message
+8. Frontend hides loading state
+
+### Error Handling Contract
+- Network errors: Display user-friendly error message
+- Backend errors: Display appropriate feedback without exposing internal details
+- Validation errors: Provide immediate feedback in UI

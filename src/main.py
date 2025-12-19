@@ -52,10 +52,12 @@ def initialize_app():
     # Import and include API routers
     from src.api.ingestion_endpoint import router as ingestion_router
     from src.api.query_endpoint import router as query_router
+    from src.api.chat_endpoint import router as chat_router
 
     # Include the routers
     app.include_router(ingestion_router)
     app.include_router(query_router)
+    app.include_router(chat_router, prefix="")
 
 
 # Initialize the app with routers
