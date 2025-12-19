@@ -13,6 +13,7 @@ class Settings:
 
     # API Keys and Endpoints
     COHERE_API_KEY: str = os.getenv("COHERE_API_KEY", "")
+    GEMINI_API_KEY: str = os.getenv("GEMINI_API_KEY", "")
     QDRANT_URL: str = os.getenv("QDRANT_URL", "")
     QDRANT_API_KEY: Optional[str] = os.getenv("QDRANT_API_KEY")
     QDRANT_HOST: str = os.getenv("QDRANT_HOST", "localhost")
@@ -25,6 +26,12 @@ class Settings:
     SIMILARITY_THRESHOLD: float = float(os.getenv("SIMILARITY_THRESHOLD", "0.7"))
     MAX_QUERY_LENGTH: int = int(os.getenv("MAX_QUERY_LENGTH", "1000"))
     COLLECTION_NAME: str = os.getenv("COLLECTION_NAME", "myfirst_book")
+
+    # LLM Configuration
+    LLM_MODEL_NAME: str = os.getenv("LLM_MODEL_NAME", "gemini-2.5-flash")
+    LLM_TEMPERATURE: float = float(os.getenv("LLM_TEMPERATURE", "0.7"))
+    LLM_MAX_TOKENS: int = int(os.getenv("LLM_MAX_TOKENS", "2048"))
+    LLM_BASE_URL: str = os.getenv("LLM_BASE_URL", "https://generativelanguage.googleapis.com/v1beta/openai/")
 
     # Performance and Limits
     BATCH_SIZE: int = int(os.getenv("BATCH_SIZE", "32"))
@@ -45,6 +52,10 @@ class Settings:
 
         if not self.QDRANT_URL and not self.QDRANT_HOST:
             errors.append("Either QDRANT_URL or QDRANT_HOST must be specified")
+
+        # Check if either Cohere or Gemini API key is provided
+        if not self.COHERE_API_KEY and not self.GEMINI_API_KEY:
+            errors.append("Either COHERE_API_KEY or GEMINI_API_KEY must be provided")
 
         return errors
 

@@ -14,6 +14,7 @@ from pathlib import Path
 from typing import Dict, Any, List
 
 # Import all the necessary components
+from fastapi import FastAPI
 from src.services.ingestion_pipeline import IngestionPipelineService
 from src.services.embedding_service import EmbeddingService
 from src.services.vector_storage import VectorStorageService
@@ -33,6 +34,37 @@ def setup_logging():
         level=logging.INFO,
         format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
     )
+
+
+# Create the FastAPI application
+app = FastAPI(
+    title="RAG Chatbot API",
+    description="API for the RAG Chatbot system with document ingestion and querying capabilities",
+    version="1.0.0",
+    openapi_url="/api/v1/openapi.json",
+    docs_url="/api/v1/docs",
+    redoc_url="/api/v1/redoc"
+)
+
+
+def initialize_app():
+    """Initialize the FastAPI application with all routers."""
+    # Import and include API routers
+    from src.api.ingestion_endpoint import router as ingestion_router
+    from src.api.query_endpoint import router as query_router
+
+    # Include the routers
+    app.include_router(ingestion_router)
+    app.include_router(query_router)
+
+
+# Initialize the app with routers
+initialize_app()
+
+
+def get_app() -> FastAPI:
+    """Get the FastAPI application instance."""
+    return app
 
 
 async def run_ingestion_pipeline(docs_directory: str = None):

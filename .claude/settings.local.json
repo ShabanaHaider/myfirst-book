@@ -1,7 +1,28 @@
 {
   "permissions": {
     "allow": [
-      "Bash(python run_ingestion.py)"
+      "Bash(python run_ingestion.py)",
+      "Bash(find . -name \"*.py\" -exec grep -l \"FastAPI\\\\|app =.*API\" {} ;)",
+      "Bash(python -c \"from src.main import get_app; app = get_app\\(\\); print\\(''get_app function works, app type:'', type\\(app\\)\\); print\\(''App title:'', app.title\\)\")",
+      "Bash(python -c \"import sys; sys.path.insert\\(0, ''.''\\); from src.main import app; print\\(''SUCCESS: FastAPI app imported successfully from src.main''\\)\")",
+      "Bash(python -c \"import sys; sys.path.insert\\(0, ''.''\\); from src.main import get_app; app = get_app\\(\\); print\\(''SUCCESS: get_app function works, app title:'', app.title\\)\")",
+      "Bash(git fetch --all --prune)",
+      "Bash(.specify/scripts/powershell/create-new-feature.ps1 -Json \"the system shall implement an orchestration layer that connects the existing retreival pipeline with a large language model \\(Gemini/OpenAI\\) to generate human readable language answers.specificall the system shall introduce an orchestration layer responsible for:1-coordinating retreival results and response generation 2- constructing prompts from retreived chunks and user queries 3-manage token limits and context size 4-integrate gemini \\(via openai-compatible api\\)for response generation 5-replace simple text concatenation with LLM based answers synthesis 6-Ensure retreival content is used as grounded context for responses 7-maintain modularity so retreival, orchestration and generation remain independent components\" --number 8 --short-name \"orchestration-layer\")",
+      "Bash(python .specify/scripts/python/create-new-feature.py \"the system shall implement an orchestration layer that connects the existing retreival pipeline with a large language model \\(Gemini/OpenAI\\) to generate human readable language answers.specificall the system shall introduce an orchestration layer responsible for:1-coordinating retreival results and response generation 2- constructing prompts from retreived chunks and user queries 3-manage token limits and context size 4-integrate gemini \\(via openai-compatible api\\)for response generation 5-replace simple text concatenation with LLM based answers synthesis 6-Ensure retreival content is used as grounded context for responses 7-maintain modularity so retreival, orchestration and generation remain independent components\" --number 8 --short-name \"orchestration-layer\")",
+      "Bash(powershell -ExecutionPolicy Bypass -File \".specify/scripts/powershell/create-new-feature.ps1\" -Json \"the system shall implement an orchestration layer that connects the existing retreival pipeline with a large language model \\(Gemini/OpenAI\\) to generate human readable language answers.specificall the system shall introduce an orchestration layer responsible for:1-coordinating retreival results and response generation 2- constructing prompts from retreived chunks and user queries 3-manage token limits and context size 4-integrate gemini \\(via openai-compatible api\\)for response generation 5-replace simple text concatenation with LLM based answers synthesis 6-Ensure retreival content is used as grounded context for responses 7-maintain modularity so retreival, orchestration and generation remain independent components\" -Number 8 -ShortName \"orchestration-layer\")",
+      "Bash(powershell -ExecutionPolicy Bypass -File \".specify/scripts/powershell/check-prerequisites.ps1\" -Json)",
+      "Bash(powershell -ExecutionPolicy Bypass -File \".specify/scripts/powershell/check-prerequisites.ps1\" -Json -RequireTasks -IncludeTasks)",
+      "Bash(git rev-parse --git-dir)",
+      "Bash(ls -la .env:*)",
+      "Bash(python -m pytest tests/test_context_manager.py -v)",
+      "Bash(python -m pytest tests/test_token_management.py -v)",
+      "Bash(pip install openai)",
+      "Bash(python -m pytest tests/test_token_management.py::TestTokenManagementIntegration::test_context_manager_fallback_strategies_with_tokens -v)",
+      "Bash(python -m pytest tests/test_context_manager.py tests/test_token_management.py -v)",
+      "Bash(python -c \"from src.api.query_endpoint import QueryRequest; print\\(''API endpoint imports successfully''\\)\")",
+      "Bash(python -m pytest --ignore=tests/test_e2e.py -v)",
+      "Bash(python test_orchestration.py)",
+      "Bash(python test_end_to_end.py)"
     ]
   }
 }

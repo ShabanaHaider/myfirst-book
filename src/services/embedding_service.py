@@ -58,7 +58,8 @@ class EmbeddingService:
                     "chunk_index": chunk.chunk_index,
                     "character_position": chunk.character_position,
                     "content_hash": chunk.content_hash,
-                    "original_content_length": len(chunk.text_content)
+                    "original_content_length": len(chunk.text_content),
+                    "content": chunk.text_content  # Include the actual content
                 },
                 collection_name=self.qdrant_client.collection_name,
                 created_at=chunk.created_at
