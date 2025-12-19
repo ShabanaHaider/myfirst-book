@@ -22,7 +22,8 @@
       "Bash(python -c \"from src.api.query_endpoint import QueryRequest; print\\(''API endpoint imports successfully''\\)\")",
       "Bash(python -m pytest --ignore=tests/test_e2e.py -v)",
       "Bash(python test_orchestration.py)",
-      "Bash(python test_end_to_end.py)"
+      "Bash(python test_end_to_end.py)",
+      "Bash(git merge 1-nextjs-chat-ui)"
     ]
   }
 }
