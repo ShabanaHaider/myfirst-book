@@ -60,7 +60,8 @@
       "Bash(python:*)",
       "Bash(cat:*)",
       "Bash(npm run dev:*)",
-      "Bash(npm run clear:*)"
+      "Bash(npm run clear:*)",
+      "Bash(git commit:*)"
     ]
   }
 }

@@ -13,7 +13,7 @@ import json
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
 
 from src.api.ingestion_endpoint import router, IngestRequest
-from backend.main import app  # Assuming you have a main app file
+from backend.src.main import app  # Assuming you have a main app file
 
 
 # Create a test client

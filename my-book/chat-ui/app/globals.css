@@ -11,12 +11,12 @@
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
-      to bottom,
-      transparent,
-      transparent
-    )
-    rgb(var(--background-end-rgb));
+    to bottom,
+    rgb(var(--background-start-rgb)),
+    rgb(var(--background-end-rgb))
+  );
 }
+
 
 * {
   box-sizing: border-box;
@@ -31,6 +31,7 @@ body {
   max-width: 800px;
   margin: 0 auto;
   padding: 1rem;
+  background-color: #648ca8;
 }
 
 .messages-container {

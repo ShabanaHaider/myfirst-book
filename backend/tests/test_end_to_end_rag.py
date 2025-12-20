@@ -9,7 +9,7 @@ from unittest.mock import Mock, AsyncMock, patch, MagicMock
 from src.services.query_orchestrator import QueryOrchestratorService
 from src.models.orchestration_models import OrchestrationRequest
 from src.api.query_endpoint import router  # We'll need to test the updated endpoint
-from backend.main import app  # Need to update the FastAPI app to use orchestration
+from backend.src.main import app  # Need to update the FastAPI app to use orchestration
 
 
 class TestEndToEndRAGPipeline:

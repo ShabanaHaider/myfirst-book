@@ -1,13 +1,14 @@
 import sys
 import os
 
-# Add the backend directory to the Python path
-backend_root = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, backend_root)
+# Add the project root to the Python path
+project_root = os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0, project_root)
 
 # Now import and run the application
+import asyncio
 import uvicorn
-from src.main import app
+from backend.src.main import app
 
 if __name__ == "__main__":
     print("Starting server on http://0.0.0.0:8001")
