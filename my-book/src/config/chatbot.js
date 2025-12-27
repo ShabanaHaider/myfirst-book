@@ -4,7 +4,7 @@
 const config = {
   // Development: http://localhost:8001
   // Production: https://your-api-domain.com
-  apiBaseUrl: 'http://localhost:8001',
+  apiBaseUrl: 'https://bijamalo-hackathon-backend-deployment.hf.space',
 
   // Other optional settings
   maxMessageLength: 1000,
