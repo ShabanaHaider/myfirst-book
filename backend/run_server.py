@@ -8,7 +8,7 @@ sys.path.insert(0, project_root)
 # Now import and run the application
 import asyncio
 import uvicorn
-from backend.src.main import app
+from src.main import app
 
 if __name__ == "__main__":
     print("Starting server on http://0.0.0.0:8001")
